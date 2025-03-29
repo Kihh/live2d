@@ -7,7 +7,7 @@
 
 .live2d-wrapper {
     position: fixed;
-    right: 2vw;
+    right: 4vw;
     bottom: var(--model-offset-bottom);
     z-index: 1000;
     display: flex;
