@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live2D 看板娘</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="avatar.png">
+    <script src="https://github.elemecdn.com/vue@3/dist/vue.global.prod.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div id="app">
+    <div class="live2d-wrapper">
+        <div class="model-container">
+            <div class="chat-box" :class="{ hidden: !isChatVisible }">
+                <div class="messages">
+                    <div v-for="(msg, index) in messages"
+                         :key="index"
+                         class="message"
+                         :style="{
+                             textAlign: msg.type === 'bot' ? 'left' : 'right',
+                             marginLeft: msg.type === 'bot' ? '0' : '20%'
+                         }">
+                        <template v-if="msg.loading">
+                            <span class="loading-dots"></span>
+                        </template>
+                        <template v-else>
+                            {{ msg.content }}
+                        </template>
+                    </div>
+                </div>
+                <div class="input-area">
+                    <input
+                            v-model="inputMsg"
+                            class="message-input"
+                            placeholder="和Ta说点什么吧～"
+                            @keyup.enter="sendMessage"
+                            :disabled="isSending"
+                    >
+                    <button class="send-btn" @click="sendMessage" :disabled="isSending">
+                        {{ isSending ? '发送中' : '发送' }}
+                    </button>
+                </div>
+            </div>
+
+            <canvas id="live2d" width="300" height="650"></canvas>
+        </div>
+
+        <button class="costume-btn" @click="changeCostume">
+            <i class="fas fa-tshirt"></i>
+        </button>
+        <button class="toggle-chat-btn" @click="toggleChat">
+            <i :class="isChatVisible ? 'fas fa-chevron-down' : 'fas fa-chevron-up'"></i>
+        </button>
+    </div>
+</div>
+
+<script src="js/live2d.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
