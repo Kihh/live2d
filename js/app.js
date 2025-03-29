@@ -15,7 +15,7 @@ const app = createApp({
             ],
             qid: this.generateQID(),
             isSending: false,
-            isChatVisible: true
+            isChatVisible: false
         }
     },
     methods: {
