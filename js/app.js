@@ -90,7 +90,7 @@ const app = createApp({
         this.qid = this.generateQID()
         this.messages = [
             {type: 'bot', content: '☆ 欢迎回来，主人！'},
-            {type: 'bot', content: '☆ 看板娘已接入Deepseek-R1'},
+            {type: 'bot', content: '☆ 看板娘已接入Deepseek-R1满血版'},
             {type: 'bot', content: '☆ 点击按钮可以换装哦～'}
         ]
         this.scrollToBottom()
