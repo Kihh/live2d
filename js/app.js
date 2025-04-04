@@ -35,7 +35,7 @@ const app = createApp({
             this.isSending = true
 
             try {
-                const response = await fetch('https://deepseek.api.kihh.xyz/', {
+                const response = await fetch('https://deepseek.api.kihh.xyz/chat', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
