@@ -7,11 +7,11 @@ const app = createApp({
             messages: [],
             currentCostume: 0,
             costumes: [
-                "https://resources.blog.kihh.xyz/model/Tia/index1.json",
-                "https://resources.blog.kihh.xyz/model/Tia/index2.json",
-                "https://resources.blog.kihh.xyz/model/Tia/index3.json",
-                "https://resources.blog.kihh.xyz/model/Tia/index4.json",
-                "https://resources.blog.kihh.xyz/model/Tia/index5.json"
+                "https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/model/Tia/index1.json",
+                "https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/model/Tia/index2.json",
+                "https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/model/Tia/index3.json",
+                "https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/model/Tia/index4.json",
+                "https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/model/Tia/index5.json"
             ],
             qid: this.generateQID(),
             isSending: false,
