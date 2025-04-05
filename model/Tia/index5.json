@@ -1,8 +1,8 @@
 {
     "version":"1.0.0",
-    "model":"model.moc",
+    "model":"https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/model.moc",
     "textures":[
-        "textures/vampire-costume-real.png"
+        "https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/textures/vampire-costume-real.png"
     ],
     "layout":{
         "center_x":0.0,

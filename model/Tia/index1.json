@@ -1,8 +1,8 @@
 {
     "version":"1.0.0",
-    "model":"https://resources.blog.kihh.xyz/model/Tia/model.moc",
+    "model":"https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/model.moc",
     "textures":[
-        "https://resources.blog.kihh.xyz/model/Tia/textures/whiteday-costume-red.png"
+        "https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/textures/whiteday-costume-red.png"
     ],
     "layout":{
         "center_x":0.0,

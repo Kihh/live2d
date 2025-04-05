@@ -1,8 +1,8 @@
 {
     "version":"1.0.0",
-    "model":"model.moc",
+    "model":"https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/model.moc",
     "textures":[
-        "textures/whiteday-costume-purple.png"
+        "https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/textures/whiteday-costume-purple.png"
     ],
     "layout":{
         "center_x":0.0,

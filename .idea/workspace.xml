@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="212e0539-2ae8-476a-b75b-4adeb5181738" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Tia/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/Tia/index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/Tia/index1.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/Tia/index1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Tia/index2.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/Tia/index2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Tia/index3.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/Tia/index3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Tia/index4.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/Tia/index4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Tia/index5.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/Tia/index5.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +80,7 @@
       <workItem from="1743783980779" duration="709000" />
       <workItem from="1743784844523" duration="1007000" />
       <workItem from="1743843247216" duration="1048000" />
-      <workItem from="1743844687425" duration="46000" />
+      <workItem from="1743844687425" duration="1293000" />
     </task>
     <servers />
   </component>
