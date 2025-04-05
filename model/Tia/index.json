@@ -1,8 +1,8 @@
 {
     "version":"1.0.0",
-    "model":"https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/model.moc",
+    "model":"model/Tia/model.moc",
     "textures":[
-        "https://awaqwq.oss-cn-nanjing.aliyuncs.com/model/Tia/textures/default-costume.png"
+        "model/Tia/textures/default-costume.png"
     ],
     "layout":{
         "center_x":0.0,
