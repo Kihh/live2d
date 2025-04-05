@@ -1,8 +1,8 @@
 {
     "version":"1.0.0",
-    "model":"model.moc",
+    "model":"https://resources.blog.kihh.xyz/model/Tia/model.moc",
     "textures":[
-        "textures/whiteday-costume-red.png"
+        "https://resources.blog.kihh.xyz/model/Tia/textures/whiteday-costume-red.png"
     ],
     "layout":{
         "center_x":0.0,

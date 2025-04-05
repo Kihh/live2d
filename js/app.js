@@ -7,11 +7,11 @@ const app = createApp({
             messages: [],
             currentCostume: 0,
             costumes: [
-                "model/Tia/index1.json",
-                "model/Tia/index2.json",
-                "model/Tia/index3.json",
-                "model/Tia/index4.json",
-                "model/Tia/index5.json"
+                "https://resources.blog.kihh.xyz/model/Tia/index1.json",
+                "https://resources.blog.kihh.xyz/model/Tia/index2.json",
+                "https://resources.blog.kihh.xyz/model/Tia/index3.json",
+                "https://resources.blog.kihh.xyz/model/Tia/index4.json",
+                "https://resources.blog.kihh.xyz/model/Tia/index5.json"
             ],
             qid: this.generateQID(),
             isSending: false,
